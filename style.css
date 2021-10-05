@@ -1,0 +1,68 @@
+.header{
+    position:fixed;
+    background: #007765;
+    height: 84px;
+    width: 100%;
+    z-index: 10;
+}
+
+.header .logo{
+    height: 45px;
+    width: 184px;
+}
+
+.head-block{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1219px;
+    height: 84px;
+    text-align: right;
+}
+
+.head-block .logo{
+    position: relative;
+    right: 82%;
+    top: 22px
+}
+
+.menu{
+    position: relative;
+    bottom: 45px;
+    right: 2%;
+}
+
+.menu p{
+    display: inline-block;
+    font-size: 24px; 
+    font-family: sans-serif;
+    margin-right: 10px;
+    color: #fff;
+}
+
+.Jumbotron{
+    display: block;
+    position: relative;
+    top: 84px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1219px;
+    height: 403px;
+    background: url(images/jumbotron.png);
+    background-position: center;
+    z-index: 1;
+    padding: 160px;
+
+
+
+}
+
+.Jumbotron p{
+    color: white;
+    font-size: 72px;
+    font-family: sans-serif;
+    text-align: center;
+
+
+
+}
