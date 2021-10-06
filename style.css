@@ -4,6 +4,7 @@
     height: 84px;
     width: 100%;
     z-index: 10;
+    top: 0;
 }
 
 .header .logo{
@@ -42,27 +43,88 @@
 
 .Jumbotron{
     display: block;
-    position: relative;
-    top: 84px;
+    position: static;
     margin-left: auto;
     margin-right: auto;
-    width: 1219px;
+    width: 100%;
     height: 403px;
-    background: url(images/jumbotron.png);
+    background: url(images/jumbotron.png) no-repeat;
     background-position: center;
+    background-size: cover;
     z-index: 1;
-    padding: 160px;
-
-
-
 }
 
 .Jumbotron p{
+    display: block;
     color: white;
     font-size: 72px;
     font-family: sans-serif;
     text-align: center;
+    line-height: 403px;
+}
 
+.problem{
+    display: block;
+    position: relative;
+    width: auto;
+    height: 609px;
+    background-color: #EEEEEE;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: sans-serif;
+    font-size: 32px;
+    padding: 55px;
+}
 
+.problem>.content{
+    display:block;
+    position: absolute;
+    top: 330px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 1219px;
+    height: 609px;
+}
 
+.problem>.content>.title{
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    color: #007765;
+    font-size: 64px;
+    text-align: center;
+}
+
+.problem .text{
+    display: block;
+    position: static;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1110px;
+    height: 488;
+}
+
+.hero{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 483px;
+    background: url(images/hero.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding-top: 128px;
+}
+
+.hero p{
+    display: block;
+    color: white;
+    font-size: 48px;
+    font-family: sans-serif;
+    width: 893px;
+    height: 228px;
+    margin-left: auto;
+    margin-right: auto;
 }
