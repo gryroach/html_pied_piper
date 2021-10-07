@@ -103,7 +103,7 @@
     margin-left: auto;
     margin-right: auto;
     width: 1110px;
-    height: 488;
+    height: 488px;
 }
 
 .hero{
@@ -155,11 +155,11 @@
 
 .ppc .text{
     display: block;
-    position: static;
+    position: relative;
     margin-left: auto;
     margin-right: auto;
     width: 1110px;
-    height: 488;
+    height: 488px;
 }
 
 .ppc .logo{
@@ -191,23 +191,55 @@
     margin-right: -50%;
     transform: translate(-50%, -50%);
     width: 1219px;
-    /* height: 845px; */
-}
-
-.sotr{
-    display: inline-block;
-    position: relative;
-    margin-right: 90px;
-    margin-left: 90px;
-    vertical-align: middle;
-    font-size: 24px;
 }
 
 .sotr i{
+    color: black;
     font-size: 18px;
 }
 
 .sotr .image{
     height: 168px;
     width: 168px;
+}
+
+.sotr{
+    display: grid;
+    grid-template-columns: repeat(3, 4fr);
+    grid-template-rows: repeat(2, 4fr);
+    grid-row-gap: 60px;
+    font-size: 24px;
+    color: #007765;
+    text-align: center;
+    line-height: 0.1em;
+}
+
+.richard{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.dinesh{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.gilfoyle{
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+.jared{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.monica{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.nelson{
+    grid-column: 3/4;
+    grid-row: 2/3;
 }
