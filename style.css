@@ -169,3 +169,45 @@
     padding-left: 50px;
     margin-right: 48px;
 }
+
+.team{
+    display: block;
+    position: relative;
+    width: auto;
+    height: 845px;
+    background-color: #EEEEEE;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: sans-serif;
+    font-size: 32px;
+    padding: 55px;
+}
+
+.team .content{
+    display:block;
+    position: relative;
+    top: 330px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 1219px;
+    /* height: 845px; */
+}
+
+.sotr{
+    display: inline-block;
+    position: relative;
+    margin-right: 90px;
+    margin-left: 90px;
+    vertical-align: middle;
+    font-size: 24px;
+}
+
+.sotr i{
+    font-size: 18px;
+}
+
+.sotr .image{
+    height: 168px;
+    width: 168px;
+}
